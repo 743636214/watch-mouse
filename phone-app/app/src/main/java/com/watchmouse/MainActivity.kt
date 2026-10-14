@@ -1,6 +1,7 @@
 package com.watchmouse
 
 import android.Manifest
+import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -236,7 +237,15 @@ class MainActivity : AppCompatActivity() {
      * 检查无障碍服务是否已启用
      */
     private fun isAccessibilityServiceEnabled(): Boolean {
-        return MouseAccessibilityService.isServiceEnabled()
+        val enabledServices = Settings.Secure.getString(
+            contentResolver,
+            Settings.Secure.ENABLED_ACCESSIBILITY_SERVICES
+        ) ?: return false
+
+        val expectedComponent = ComponentName(this, MouseAccessibilityService::class.java)
+        return enabledServices.split(':').any { flattenedName ->
+            ComponentName.unflattenFromString(flattenedName) == expectedComponent
+        }
     }
 
     /**
