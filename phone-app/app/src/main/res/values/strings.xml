@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WatchMouse</string>
+    <string name="accessibility_service_label">WatchMouse 触控板服务</string>
+    <string name="accessibility_service_description">允许 WatchMouse 通过手表控制手机，模拟鼠标点击、滚动和返回操作</string>
+
+    <!-- 主界面 -->
+    <string name="brand_overline">WIRELESS TOUCHPAD  /  VELA × ANDROID</string>
+    <string name="status_overline">WATCHMOUSE  ·  DEVICE SETUP</string>
+    <string name="title_main">WatchMouse</string>
+    <string name="subtitle_main">你的腕上无线控制台</string>
+    <string name="status_disconnected">未连接</string>
+    <string name="status_step_permissions">第 1 步：允许必要权限</string>
+    <string name="status_step_accessibility">第 2 步：开启无障碍服务</string>
+    <string name="status_step_overlay">第 3 步：允许显示悬浮光标</string>
+    <string name="status_step_start">手机设置已完成</string>
+    <string name="status_waiting_watch">手机已就绪</string>
+    <string name="status_detail_initial">点下方按钮，WatchMouse 会带你完成下一项设置。</string>
+    <string name="status_detail_accessibility">点击下方按钮 → 找到“WatchMouse 触控板服务” → 打开开关。授权后返回此应用，状态会自动更新。</string>
+    <string name="status_detail_waiting_watch">现在打开手表上的 WatchMouse，点击“连接手机”并选择 WatchMouse。</string>
+    <string name="status_done">✓ 已完成</string>
+    <string name="status_needed">待授权</string>
+    <string name="action_permissions">授予必要权限</string>
+    <string name="action_accessibility">去开启无障碍服务</string>
+    <string name="action_overlay">去允许悬浮窗</string>
+    <string name="action_start">开启服务</string>
+    <string name="action_stop">停止服务</string>
+    <string name="action_stop_control_hide_cursor">停止操控并关闭光标</string>
+    <string name="cursor_closed_toast">已停止操控并关闭光标，系统授权保留</string>
+    <string name="accessibility_guide_title">开启无障碍服务</string>
+    <string name="accessibility_guide_message">WatchMouse 需要无障碍服务来执行手表发来的点击、滑动和返回操作。系统不允许应用代替你开启，请在设置中手动确认。\n\n1. 在无障碍页面找到“已下载的应用”或“已安装的应用”。\n2. 点“WatchMouse 触控板服务”，打开开关并确认。\n3. 如果系统提示“受限设置”，先按系统提示允许 WatchMouse 使用受限设置，再回来开启服务。\n\n完成后返回 WatchMouse，授权状态会自动刷新。</string>
+    <string name="accessibility_guide_open_settings">打开无障碍设置</string>
+    <string name="accessibility_guide_later">稍后</string>
+    <string name="accessibility_enabled_toast">无障碍服务已开启</string>
+    <string name="accessibility_still_needed_toast">还没开启 WatchMouse 服务，请在列表中打开开关</string>
+    <string name="revoke_authorizations_button">关闭服务并撤销授权</string>
+    <string name="revoke_authorizations_hint">将依次打开系统设置；请在每页手动关闭授权</string>
+    <string name="revoke_authorizations_title">关闭服务并撤销授权？</string>
+    <string name="revoke_authorizations_message">WatchMouse 会先停止蓝牙服务、隐藏悬浮光标，再依次打开系统设置。请手动关闭无障碍和悬浮窗；Android 13 及以上会在最后自动撤销蓝牙/通知权限并关闭应用。</string>
+    <string name="revoke_authorizations_continue">开始关闭</string>
+    <string name="revoke_authorizations_incomplete">仍有授权开启。请在系统设置页手动关闭后返回 WatchMouse。</string>
+    <string name="revoke_authorizations_complete">服务已停止，检测到的授权已关闭。</string>
+    <string name="revoke_authorizations_runtime_revoking">正在撤销蓝牙/通知权限，系统稍后会关闭 WatchMouse。</string>
+    <string name="section_phone_setup">01  /  手机权限</string>
+    <string name="permission_bluetooth">蓝牙和通知权限</string>
+    <string name="permission_accessibility">无障碍操作（用于点击和返回）</string>
+    <string name="permission_overlay">悬浮光标（允许显示在其他应用上）</string>
+    <string name="section_watch_setup">02  /  连接手表</string>
+    <string name="watch_setup_steps">手机服务开启后，在手表打开 WatchMouse → 点击“连接手机” → 选择“WatchMouse”。\n连接成功后，手机上会出现悬浮光标。</string>
+    <string name="gesture_quick_help">单指移动光标 · 轻点点击 · 双指滚动 · 左右快滑返回</string>
+    <string name="status_connected">已连接 - 等待手表指令</string>
+    <string name="status_advertising">正在广播 - 等待手表连接</string>
+    <string name="btn_start_service">开启服务</string>
+    <string name="btn_stop_service">停止服务</string>
+    <string name="btn_enable_accessibility">开启无障碍服务</string>
+    <string name="btn_enable_overlay">开启悬浮窗权限</string>
+    <string name="btn_request_permissions">请求必要权限</string>
+
+    <string name="hint_status">状态</string>
+    <string name="hint_permissions">权限设置</string>
+    <string name="hint_instructions">使用说明</string>
+
+    <string name="instruction_1">1. 确保手机和手表蓝牙已开启</string>
+    <string name="instruction_2">2. 点击"开启服务"启动 BLE 服务</string>
+    <string name="instruction_3">3. 在手表上打开 WatchMouse 应用</string>
+    <string name="instruction_4">4. 点击"连接手机"并选择你的设备</string>
+    <string name="instruction_5">5. 连接成功后即可用手表操控手机</string>
+
+    <string name="gesture_single_finger">单指滑动 = 鼠标移动</string>
+    <string name="gesture_click">单指点击 = 鼠标左键</string>
+    <string name="gesture_two_finger">双指滑动 = 滚动页面</string>
+    <string name="gesture_swipe">左右滑 = 返回上一页</string>
+</resources>

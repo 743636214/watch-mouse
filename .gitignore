@@ -1,0 +1,30 @@
+# Android Studio / IntelliJ local workspace state
+**/.idea/
+*.iml
+
+# Gradle caches and generated build output
+**/.gradle/
+**/.kotlin/
+**/build/
+**/out/
+
+# Machine-specific Android SDK paths and signing credentials
+**/local.properties
+**/*.jks
+**/*.keystore
+**/*.p12
+**/*.pfx
+
+# Packaged Android artifacts (build these locally or in CI)
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Local diagnostics and OS files
+*.hprof
+*.log
+captures/
+.DS_Store
+Thumbs.db

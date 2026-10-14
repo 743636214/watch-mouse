@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#38D9F5</color>
+    <color name="primary_dark">#102035</color>
+    <color name="accent">#8A7CFF</color>
+    <color name="background">#08111F</color>
+    <color name="surface">#111E30</color>
+    <color name="surface_stroke">#263B54</color>
+    <color name="text_primary">#F3F7FC</color>
+    <color name="text_secondary">#9AACBF</color>
+    <color name="connected">#58E6A7</color>
+    <color name="disconnected">#42DDF5</color>
+    <color name="connecting">#FFC66D</color>
+    <color name="cursor_color">#FF4081</color>
+</resources>

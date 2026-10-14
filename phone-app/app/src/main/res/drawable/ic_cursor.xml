@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 鼠标指针图标 - 三角形箭头形状 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <!-- 指针主体 -->
+    <path
+        android:fillColor="#FF4081"
+        android:pathData="M4,2 L4,26 L10,20 L14,28 L18,26 L14,18 L22,18 Z" />
+    <!-- 指针边框/高光 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M5,4 L5,24 L9,20 L7,14 L16,14 Z" />
+</vector>

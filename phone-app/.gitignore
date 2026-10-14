@@ -1,0 +1,4 @@
+local.properties
+app/watchmouse-release.jks
+*.keystore
+*.jks
